@@ -16,6 +16,7 @@ const UpdateProductPage = ({ products, onUpdate }) => {
         const dataUpdate = { ...inputValues, "id": id } 
         onUpdate(dataUpdate); 
     }
+    // console.log(products);
     return (
         <div>
             <form action="" onSubmit={onHandleSubmit}>
