@@ -2,15 +2,15 @@ import React from 'react'
 import { useState } from 'react';
 
 const AddProductPage = ({ addProduct }) => {
-    const [data, setData] = useState({}) // tạo state để lưu giá trị của input
+    const [data, setData] = useState({})
     const onHandleChange = (event) => {
-        const { name, value } = event.target; // lấy name và value của input
-        const newData = { ...data, [name]: value } // lấy tất cả các giá trị cũ và thêm giá trị mới
-        setData(newData); // cập nhật lại state
+        const { name, value } = event.target; 
+        const newData = { ...data, [name]: value } 
+        setData(newData); 
     }
     const onHandleSubmit = (e) => {
         e.preventDefault();
-        addProduct(data); // gọi hàm addProduct được truyền từ component cha
+        addProduct(data); 
     }
 
     return (
