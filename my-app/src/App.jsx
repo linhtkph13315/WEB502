@@ -1,4 +1,3 @@
-// import { useEffect, useState } from 'react'
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -20,6 +19,7 @@ function App() {
       method: "DELETE"
     }).then(() => setProducts(products.filter((item) => item.id != id)))
   }
+  
   const addProduct = (product) => {
     fetch(`http://localhost:3000/products`, {
       method: "POST",
