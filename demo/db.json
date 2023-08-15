@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "name": "UPDATED",
+      "price": "2",
+      "desc": "3",
+      "id": 13
+    },
+    {
+      "name": "demo1 updated",
+      "price": "200",
+      "desc": "demoooo",
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "name": "Thực phẩm đông lạnh",
+      "id": 1
+    },
+    {
+      "name": "Đồ uống",
+      "id": 2
+    },
+    {
+      "name": "Trái Cây",
+      "id": 3
+    },
+    {
+      "name": "Đồ đông lạnh",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "password": "123456",
+      "roleId": 2
+    },
+    {
+      "name": "linhtkupdated",
+      "password": "2345678",
+      "id": 3
+    },
+    {
+      "name": "linhtk",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "linhtk",
+      "password": "12345678",
+      "id": 6
+    },
+    {
+      "name": "linhtk123",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "linhtk123",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "name": "linhtk123",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "name": "linhtk123",
+      "password": "123456",
+      "id": 10
+    },
+    {
+      "name": "linhtk123",
+      "password": "123456",
+      "id": 11
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
